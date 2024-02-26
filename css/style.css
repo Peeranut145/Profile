@@ -1,0 +1,181 @@
+* {                          /*set ทุกหน้าจอแสดงเป็นค่าเริ่มต้น*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {        /*หลักออกแบบหน้าเว็บ ปรับขนาดของหน้าจอเว็บ*/
+    max-width: 1000px;
+    margin: 0 auto;     /*auto ดันซ้ายขวาให้เท่ากัน*/
+}
+
+nav {
+    padding: 0.5rem;               /*ระยะห่างระหว่างขอบของวัตถุ*/
+    background-color: #615e5b;
+}
+
+.nav-con {
+    display: flex;          /*set ให้ข้อความเรียงเป็นคอลัมไปข้างๆ*/
+    justify-content: space-between;   /*จัดตำแหน่งให้ หัวข้อไปทางขวา  แกนแนวนอน*/
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img {
+
+    border: 3px solid #050000;
+    width: 8rem;
+    margin: 0 1rem;
+}
+
+.logo a {           /*ขนาดตัว logo*/
+    font-size: 3rem;
+    color: #f7f7f7;
+    text-decoration: none;  /*ลบ เส้นใต้*/
+    
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;    /*ลบ ไข่ปลา จุดๆ ออกจากmenu*/
+    align-items: center;        /*จัดตำแหน่งให้ บนลงล่าง  แกนแนวตั้ง*/
+}
+
+.menu li {
+    margin: 0 1rem;         /*ค่าแรก บนล่าง ค่าสอง ซ้ายขวา*/   
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color: #f7e2d0;
+}
+
+
+.hero-con {
+    display: flex;          /*เปลี่ยนแกน*/    
+    
+}
+.hero-img img {
+    width: 100%;
+    padding: 2rem;
+}
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+}
+.hero-info h3 {
+    font-size: 2rem;
+}
+.hero-info p {
+    margin: 1rem 0;             /*ระยะห่างขอบ บนล่าง1 ซ้ายขวา 0*/
+}
+.hero-info .hero-btn {
+    display: inline-block;      /*กำหนดเป็นปุ่มกด*/
+    background-color: orange;   /*สีปุ่มกด*/
+    color: #fff;            /*สีตัวหนังสือ*/    
+    padding: 1rem;          /*ขนาดระยะห่างจากขอบของวัตถุ*/
+    text-decoration: none;  /*ลบเส้นใต้*/
+    border-radius: 5px;     /*ทำขอบให้ มน*/
+}
+
+
+
+
+.blog-title h3 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+
+.blog-con {
+    display: grid;              /*เรียงรูปภาพ บนลงล่างแบบ instragram */
+    grid-template-columns: 1fr 1fr 1fr 1fr;         /* จัดเรียง คอลัม แนวนอน จะกี่คอลัมเลือกเอา*/  /*1fr แทน 1 คอลัม*/
+    column-gap: 1rem;         /*ระยะห่างระหว่างคอลัม*/
+    
+}
+.blog-item img {
+    width: 100%;
+    padding: 0.2rem;
+  
+
+}
+.blog-item .blog-btn {
+    display: inline-block;      /*กำหนดเป็นปุ่มกด*/
+    background-color: orange;   /*สีปุ่มกด*/
+    color: #fff;            /*สีตัวหนังสือ*/    
+    padding: 1rem;          /*ขนาดระยะห่างจากขอบของวัตถุ*/
+    text-decoration: none;  /*ลบเส้นใต้*/
+    border-radius: 5px;     /*ทำขอบให้ มน*/
+
+}
+.blog-item h4 {
+    margin: 1rem 0;
+
+}
+.blog-item p {
+    margin: 1rem 0;
+
+}
+.blog-item a {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+
+
+
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;             /*ระยะห่่างบนล่าง*/
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-last-child(2) h4{              /*เป็นการเข้าถึงคอลัมที่สอง ภายใต้การใช้งาน class เดียวกัน*/
+    margin-bottom: 1rem;
+}
+
+
+.footer-top-item:nth-last-child(1) h4{              /*เป็นการเข้าถึงคอลัมที่สอง ภายใต้การใช้งาน class เดียวกัน*/
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.footer-bottom {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+    
