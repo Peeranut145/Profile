@@ -179,3 +179,112 @@ nav {
     text-align: center;
 }
     
+.port {
+    margin-top: 0.3rem;
+    padding: 3rem;
+    background-color: #cdd46b;
+    color: #fff;
+}
+.port-title h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #f0f0f0;
+}
+.port-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.port-item img{
+    
+    border: 2px solid #050000;
+    width: 13rem;
+    margin: 0 8rem;
+    
+
+}
+.port-item {
+    background-color: #fff;
+    padding: 2rem;
+    color: #100ea1;
+}
+.port-item:nth-last-child(2){
+    background-color: rgb(51, 81, 165);
+
+}
+.port-item-info h1{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    color: #615e5b;
+
+}
+.port-item-info h2{
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    color: #615e5b;
+
+}
+.port-item-info h3{
+    font-size: 1.1rem;
+   
+    margin-top: 1rem
+
+}
+.port-item-info h4{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #133766;
+
+}
+
+.port-item-info h5{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #3f8cd4;
+
+}
+
+.port-item-info h6{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #3f8cd4;
+}
+.port-title-btn {
+    display: inline-block;      /*กำหนดเป็นปุ่มกด*/
+    background-color: rgb(221, 166, 63);   /*สีปุ่มกด*/
+    color: #fff;            /*สีตัวหนังสือ*/    
+    padding: 1rem;          /*ขนาดระยะห่างจากขอบของวัตถุ*/
+    align-items: center;
+    border-radius: 10px;     
+}
+.port-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.port-item-skill{
+    display: flex;
+    margin: 2rem 2rem;
+}
+.port-item-skill-con {
+    background-color: rgb(51, 81, 165);
+    color: #fcfcfc;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.port-item-skill-con i {
+    margin-bottom: 2rem;
+}
+.port-item-skill-text span {
+    color: #fff;
+}
+
+
+.port-item h1 {
+    color: #fff;
+    margin: 2rem 3rem;
+}
