@@ -25,8 +25,7 @@ nav {
 }
 .logo img {
 
-    border: 3px solid #050000;
-    width: 8rem;
+    width: 12rem;
     margin: 0 1rem;
 }
 
@@ -55,7 +54,8 @@ nav {
 
 
 .hero {
-    background-color: #f7e2d0;
+    background-color: #f1a96a;
+    margin-top: 2rem;
 }
 
 
@@ -65,12 +65,19 @@ nav {
 }
 .hero-img img {
     width: 100%;
-    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-img h1 {
+    font-size: 4rem;
+    margin: 0.5rem 3.5rem;
+    color: #f8f6f6;
 }
 .hero-info {
     width: 100%;
     padding: 2rem;
 }
+
 .hero-info h3 {
     font-size: 2rem;
 }
@@ -107,6 +114,10 @@ nav {
   
 
 }
+.blog-vedio video {
+    width: "200";
+    
+}
 .blog-item .blog-btn {
     display: inline-block;      /*กำหนดเป็นปุ่มกด*/
     background-color: orange;   /*สีปุ่มกด*/
@@ -130,7 +141,9 @@ nav {
 }
 
 
-
+.blog-title h2 {
+    margin-bottom: 2rem;
+}
 
 
 .footer-top {
@@ -170,7 +183,17 @@ nav {
 }
 
 
-
+.footer-top-item a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    
+}
+.footer-top-item i {
+    color: #fff;
+    margin: 0 1rem;
+    
+}
 
 
 .footer-bottom {
@@ -182,7 +205,7 @@ nav {
 .port {
     margin-top: 0.3rem;
     padding: 3rem;
-    background-color: #cdd46b;
+    background-color: #424240;
     color: #fff;
 }
 .port-title h1{
@@ -252,7 +275,7 @@ nav {
 }
 .port-title-btn {
     display: inline-block;      /*กำหนดเป็นปุ่มกด*/
-    background-color: rgb(221, 166, 63);   /*สีปุ่มกด*/
+    background-color: rgb(5, 5, 5);   /*สีปุ่มกด*/
     color: #fff;            /*สีตัวหนังสือ*/    
     padding: 1rem;          /*ขนาดระยะห่างจากขอบของวัตถุ*/
     align-items: center;
@@ -278,13 +301,30 @@ nav {
 
 .port-item-skill-con i {
     margin-bottom: 2rem;
+    
 }
 .port-item-skill-text span {
     color: #fff;
 }
-
+.port-item-info h1{
+    color: #fff;
+    margin: 2rem 3rem;
+}
 
 .port-item h1 {
     color: #fff;
-    margin: 2rem 3rem;
+    margin: 2rem 1.8rem;
+}
+.port-item-skill-mud {
+    color: #fff;
+    display: grid;
+    column-gap: 10rem;
+    margin: 0.1rem  0.4rem
+}
+.port-item-skill-text2 span {
+    color: #fcfcfc;
+    display: grid;
+    margin: 0 1rem;
+    font-size: 0.9rem;
+
 }
